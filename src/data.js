@@ -46,6 +46,11 @@ export const skillData = [
     name: "Python",
   },
   {
+    id: 10,
+    skill: <Icon icon="devicon:scikitlearn" width="125" height="75" className="display-4" />,
+    name: "Scikit Learn",
+  },
+  {
     id: 2,
     skill: <Icon icon="ph:file-sql" className="display-4" />,
     name: "SQL",
@@ -85,11 +90,7 @@ export const skillData = [
     skill: <Icon icon="logos:selenium" className="display-4" />,
     name: "Selenium",
   },
-  {
-    id: 10,
-    skill: <Icon icon="devicon:scikitlearn" width="125" height="75" className="display-4" />,
-    name: "Scikit Learn",
-  },
+ 
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
