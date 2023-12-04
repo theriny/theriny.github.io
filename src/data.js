@@ -5,9 +5,10 @@ import { Icon } from "@iconify/react";
 // import newLogo from "./images/yourFileName"
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+//import Logo from "./images/logo.svg";
 import Scrape0 from "./images/webscrape0.png";
 import Lyric from "./images/lyricgpt.png";
+import Electricity from "./images/electricity-money.jpg";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -101,17 +102,22 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["Edgar-Web-Scrape", "Song-Lyric-Scraping", "example-3"];
+export const filteredProjects = ["Edgar-Web-Scrape", "Song-Lyric-Scraping","Electricity-Price-Prediction"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
     name: "Edgar-Web-Scrape",
     image: Scrape0,
+    
   },
   {
     name: "Song-Lyric-Scraping",
     image: Lyric,
+  },
+  {
+    name: "Electricity-Price-Prediction",
+    image: Electricity,
   }
 ];
 
