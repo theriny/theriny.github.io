@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/your-app/static/css/main.63ffa884.css",
+    "main.js": "/your-app/static/js/main.8fcc2024.js",
+    "static/media/hero-dark.jpg": "/your-app/static/media/hero-dark.37f2556d620821979e99.jpg",
+    "static/media/hero-light.jpg": "/your-app/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
+    "static/media/webscrape0.png": "/your-app/static/media/webscrape0.df1e0746acae7dabc293.png",
+    "service-worker.js": "/your-app/service-worker.js",
+    "static/media/lyricgpt.png": "/your-app/static/media/lyricgpt.7d1fcf315ba5a8058eb7.png",
+    "static/media/electricity-money.jpg": "/your-app/static/media/electricity-money.3d31dfe26d3b1ce66b17.jpg",
+    "static/media/GH.svg": "/your-app/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "static/media/defaultNavLogo.svg": "/your-app/static/media/defaultNavLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.svg": "/your-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/your-app/index.html",
+    "main.63ffa884.css.map": "/your-app/static/css/main.63ffa884.css.map",
+    "main.8fcc2024.js.map": "/your-app/static/js/main.8fcc2024.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63ffa884.css",
+    "static/js/main.8fcc2024.js"
+  ]
+}
