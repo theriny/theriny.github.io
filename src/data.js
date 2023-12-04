@@ -51,6 +51,11 @@ export const skillData = [
     name: "Scikit Learn",
   },
   {
+    id: 6,
+    skill: <Icon icon="logos:pandas" width="125" height="75" className="display-4" />,
+    name: "Pandas",
+  },
+  {
     id: 2,
     skill: <Icon icon="ph:file-sql" className="display-4" />,
     name: "SQL",
@@ -70,11 +75,7 @@ export const skillData = [
     skill: <Icon icon="devicon:azure" className="display-4" />,
     name: "Microsoft Azure",
   },
-  {
-    id: 6,
-    skill: <Icon icon="logos:pandas" width="125" height="75" className="display-4" />,
-    name: "Pandas",
-  },
+  
   {
     id: 7,
     skill: <Icon icon="logos:qlik" width="100" height="50"  className="display-4" />,
