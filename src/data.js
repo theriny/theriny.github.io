@@ -35,7 +35,13 @@ export const Blog = <Icon icon="skill-icons:linkedin" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "Aside from my career as a Research Data Scientist, I have also leveraged my data skills in the private sector, primarily in manufacturing (Ford Motor Company) and real estate where I've been successful in creating data products that solve simple and complex challenges. Finally, Data wrangling, exploration, and visualization are hobbies of mine, and I enjoy creating and sharing the projects that I'm fortunate enough to work on. Please visit my Github website to check out what I've been working on. I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "Data exploration is a joy for me, and Python is my coding language of choice.";
+  "You never know what insight will come from a dataset, and that's what motivates me.";
+  "I wrangled, cleaned, and processed all types of data; from 2D images to 3D point clouds. From customer dashboard usage, to parking deck ingress and egress events";
+  "From marketing campaigns, to company filing reports";
+  "Data is gold";
+
+   
 
 /* Skills
  ************************************************************** 
