@@ -37,7 +37,7 @@ export const Blog = <Icon icon="skill-icons:linkedin" />;
 export const moreInfo =
   "Data exploration is a joy for me, and Python is my coding language of choice.";
   "You never know what insight will come from a dataset, and that's what motivates me.";
-  "I wrangled, cleaned, and processed all types of data; from 2D images to 3D point clouds. From customer dashboard usage, to parking deck ingress and egress events";
+  "I've wrangled, cleaned, and processed all types of data; from 2D images to 3D point clouds. From customer dashboard usage, to parking deck ingress and egress events";
   "From marketing campaigns, to company filing reports";
   "Data is gold";
 
