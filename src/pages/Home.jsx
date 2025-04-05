@@ -9,16 +9,14 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import { BackToTop } from "../components/globalStyledComponents";
 import Footer from "../components/Footer";
+import VideoPlayer from "../components/VideoPlayer"; // Import VideoPlayer
 
 export default function Home() {
   const { name } = useSelector(selectData);
 
-  React.useEffect(
-    function () {
-      document.title = `${name} | Portfolio`;
-    },
-    [name]
-  );
+  React.useEffect(() => {
+    document.title = `${name} | Portfolio`;
+  }, [name]);
 
   return (
     <>
@@ -27,6 +25,7 @@ export default function Home() {
         <AboutMe />
         <Skills />
         <Projects />
+        <VideoPlayer /> {/* Add the video player here */}
         <Contact />
       </main>
       <BackToTop home={"Home"} />

@@ -1,27 +1,28 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// https://reactjs.org/docs/context.html
-import { AppProvider } from "./appContext";
-// https://redux.js.org/tutorials/fundamentals/part-5-ui-react#passing-the-store-with-provider
+// Styles
+import "./custom.scss";
+// State
 import { Provider } from "react-redux";
-import { store } from "./store";
-// https://create-react-app.dev/docs/adding-bootstrap
-import "bootstrap/dist/css/bootstrap.css";
+import { store } from "./app/store";
+// Context
+import { AppProvider } from "./appContext"; // ✅ Add this line
+// Config
+import { filteredProjects, projectCardImages } from "./config";
 import App from "./App";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
-// https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <Provider store={store}>
-    <AppProvider>
-      <App />
+    <AppProvider> {/* ✅ Wrap App in your custom context */}
+      <App
+        filteredProjects={filteredProjects}
+        projectCardImages={projectCardImages}
+      />
     </AppProvider>
   </Provider>
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://cra.link/PWA
 serviceWorkerRegistration.register();
